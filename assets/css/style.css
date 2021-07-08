@@ -1267,25 +1267,27 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
-  position: relative;
+  /* background: #343a40; */
+  /* position: relative; */
   overflow: hidden;
   /* height: 400px; */
 }
 
 .team .member .member-info {
   opacity: 0;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
-  top: 0;
+  padding-top:20px;
   left: 0;
   right: 0;
   transition: 0.2s;
+  color:red;
 }
 
+
 .team .member .member-info-content {
-  position: absolute;
-  left: 50px;
+  /* position: absolute; */
+  /* left: 50px; */
   right: 0;
   bottom: 0;
   transition: bottom 0.4s;
@@ -1295,14 +1297,15 @@ section {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #fff;
+  padding-top:30px;
+  /* color: #fff; */
 }
 
 .team .member .member-info-content span {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .team .member .social {
@@ -1310,7 +1313,7 @@ section {
   left: -50px;
   top: 0;
   bottom: 0;
-  width: 50px;
+  /* width: 50px; */
   transition: left ease-in-out 0.3s;
   background: rgba(11, 35, 65, 0.5);
   text-align: center;
@@ -1347,8 +1350,13 @@ section {
   left: 0;
   transition: left ease-in-out 0.3s;
 }
-.team .member img{
+.member{
+  height: 500px;
+  max-width:400px;
+}
+.member img{
   height: 300px;
+  width:300px;
 }
 
 /*--------------------------------------------------------------
